@@ -32,7 +32,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # 1. Charger les données de manière robuste
-data_path = Path("house_pred_for_ml.csv")
+data_path = Path("data_for_model/house_pred_for_ml.csv")
 if not data_path.exists():
     raise FileNotFoundError(f"Fichier introuvable : {data_path}")
 
