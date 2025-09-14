@@ -67,7 +67,7 @@
 **Fichier à lire :**
 >2_script_cleaned/model_training_cleaned.py
 
-** Il ne vous reste plus qu'à valider le traitement de votre demande !**
+**Il ne vous reste plus qu'à valider le traitement de votre demande !**
 
 **Livrable étape 2 :**
 >Ouvrez 2_script_cleaned/checklist_CDP_new.md et complétez.
