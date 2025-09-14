@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Artefacts du cas pratique
+logs/
+models/
+*.csv
+!data_for_model/house_pred_for_ml.csv
