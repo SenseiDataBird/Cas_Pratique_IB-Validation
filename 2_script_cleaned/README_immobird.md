@@ -8,6 +8,20 @@ Ce module a vocation à être intégré dans la plateforme **ImmoBird** afin de 
 
 ---
 
+# Structure actuelle du repository
+
+- **1_script_to_validate/**
+  - model_training_to_validate.py
+- **2_script_cleaned/**
+  - README_immobird.md
+  - model_training_cleaned.py
+- **data_for_model/**
+- house_pred.csv
+- house_pred_for_ml.csv
+- .gitignore
+- README.md
+- checklist.md
+- requirements.txt
 
 ---
 
@@ -51,5 +65,5 @@ Fichier pré-processé pour Machine Learning
 
 | Modèle              | RMSE (€) | Commentaire                       |
 |----------------------|----------|-----------------------------------|
-| Régression Linéaire | 107,200  | Incrément+1 simple et explicable     |
+| Régression Linéaire | 107,200  | Incrément+1 simple et explicable   |
 | XGBoost             | 31,800   | Incrément+2 Amélioration notable, plus robuste|
