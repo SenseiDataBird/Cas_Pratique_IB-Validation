@@ -18,6 +18,7 @@
 - **data_for_model/house_pred_for_ml.csv** : données source / **data_for_model/house_pred_for_ml.csv** : données transformées pour ML → jeux de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).
 - Un fichier **requirements.txt** pour la gestion des dépendances des bibliothèques.
 - Un fichier **.gitignore** qui définit les fichiers/dossiers à exclure du versioning (ex. données lourdes, fichiers temporaires, environnements virtuels).
+- Un fichier **checklist.md** qui contient la checklist de validation que vous devez remplir.
 
 ---
 
