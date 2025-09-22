@@ -13,9 +13,9 @@
 
 ## Le repo contient :  
 
-- **1_script_to_validate/model_training_to_validate.py** → version initiale (contient des erreurs / red flags) + Checklist CDP.  
-- **2_script_cleaned/model_training_cleaned.py** → version corrigée + rajout d'un 2ème incrément par un Data Scientist.  
-- **data_for_model/house_pred_for_ml.csv** → jeu de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).  
+- **1_script_to_validate/model_training_to_validate.py** → version initiale (contient des erreurs / red flags).  
+- **2_script_cleaned/model_training_cleaned.py** → version corrigée + rajout d'un 2ème incrément par un Data Scientist + Un fichier **README_immobird.md** qui documente le projet.  
+- **data_for_model/house_pred_for_ml.csv** : données source / **data_for_model/house_pred_for_ml.csv** : données transformées pour ML → jeux de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).  
 
 ---
 
@@ -27,7 +27,7 @@
 ## Objectifs :  
 
 - **Utiliser Cursor pour comprendre** la structure du repo et le rôle des fichiers.  
-- **Repérer les red flags** (sécurité, reproductibilité, qualité, traçabilité).  
+- **Repérer les red flags** (sécurité, reproductibilité, qualité, traçabilité) → Référez-vous au cours "savoir lire Python" (jour 1, module 2).  
 - **Formuler des recommandations claires** et décider.  
 
 ---
