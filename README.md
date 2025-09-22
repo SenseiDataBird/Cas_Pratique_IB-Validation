@@ -1,78 +1,68 @@
-# Cas_Pratique_IB-Validation
-### Ce dépôt contient le matériel du cas pratique “Validation”. 
---- 
-#### Votre rôle : valider la partie technique du projet ImmoBird en tant que Chef de Projet Data&amp;IA.
----
-#### Votre mission : valider l’avancement technique d’un module de prédiction de prix immobilier.
----
-
-## Le repo contient :
-
-- **1_script_to_validate/model_training_to_validate.py** → version initiale (contient des red flags).
-
-- **2_script_cleaned/model_training_cleaned.py** → version corrigée par un Data Scientist.
-
-- **data_for_model/house_pred_for_ml.csv → jeu de données** (vous n’avez pas à l’ouvrir ni à l’exécuter).
-
-### Aucun prérequis technique requis. 
-#### *Ne lancez pas le code : votre rôle est de lire et décider.*
----
-
-## Objectifs :
-
-- **Savoir repérer** les red flags (sécurité, reproductibilité, qualité, traçabilité).
-
-- **Savoir formuler des recommandations claires** et décider Go/No-Go.
-
-### **Étape 1 — Valider le script initial**
-
-**Fichier à lire :**
->1_script_to_validate/model_training_to_validate.py
-
-**Ce que vous devez repérer (en 5 points ou plus si compétences techniques) :**
-
-- Secrets / identifiants en clair (ex. URL avec mot de passe).
-
-- Chemins absolus (ex. C:\Users\...) au lieu de chemins relatifs.
-
-- Logging : pas de traçabilité.
-
-- Reproductibilité : absence de random_state (split/modèles).
-
-- Métriques absentes (ex. pas de RMSE affiché).
-
-### **Livrable étape 1 :**
->Ouvrez 1_script_to_validate/checklist_CDP.md et remplissez :
-
-- OK/KO pour chaque point.
-
-- 1 phrase de justification par point KO.
-
-- **Décision : Go ou demande de modification.**
-
-- (Optionnel) : 3 recommandations concrètes.
-
-- **Risque principal (1 phrase).**
+# Cas_Pratique_IB-Validation  
+### Ce dépôt contient le matériel du cas pratique **“Validation”**.  
 
 ---
-### *Suite à lire une fois l'étape 1 terminée de votre côté*
+
+#### Votre rôle : **valider la partie technique du projet ImmoBird en tant que Chef de Projet Data & IA.**  
+
 ---
 
-## Résultat (scénario) :
+#### Votre mission : analyser et **valider l’avancement technique** d’un module de prédiction de prix immobilier.  
 
-*Suite à votre revue, un Data Scientist applique vos demandes et livre une version propre du script.*
+---
 
-### **Étape 2 — Valider le script corrigé**
+## Le repo contient :  
 
-**Fichier à lire :**
->2_script_cleaned/model_training_cleaned.py
+- **1_script_to_validate/model_training_to_validate.py** → version initiale (contient des erreurs / red flags) + Checklist CDP.  
+- **2_script_cleaned/model_training_cleaned.py** → version corrigée + rajout d'un 2ème incrément par un Data Scientist.  
+- **data_for_model/house_pred_for_ml.csv** → jeu de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).  
 
-**Il ne vous reste plus qu'à valider le traitement de votre demande !**
+---
 
-**Livrable étape 2 :**
->Ouvrez 2_script_cleaned/checklist_CDP_new.md et complétez.
+### Aucun prérequis technique requis.  
+*Ne lancez pas le code : votre rôle est de lire, comprendre (avec Cursor) et décider.*  
 
+---
 
-**Astuce pour compléter vos livrables :**
+## Objectifs :  
 
-*Dans le repo Git, cliquez sur le fichier → (edit) → remplissez → Commit changes.*
+- **Utiliser Cursor pour comprendre** la structure du repo et le rôle des fichiers.  
+- **Repérer les red flags** (sécurité, reproductibilité, qualité, traçabilité).  
+- **Formuler des recommandations claires** et décider.  
+
+---
+
+## Étape 1 — Valider le script initial  
+
+**Fichier à lire :**  
+`1_script_to_validate/model_training_to_validate.py`  
+
+**Ce que vous devez repérer (au moins 5 points) :**  
+- Secrets / identifiants en clair.  
+- Chemins absolus (ex. `C:\Users\...`) au lieu de chemins relatifs.  
+- Pas de reproductibilité (absence de `random_state` dans split/modèles).  
+- Métriques absentes (ex. pas de RMSE affiché, pas de métrique de performance du modèle).  
+
+**Livrable étape 1 (avec Cursor) :**  
+- Compléter la **checklist de validation** dans le fichier `1_script_to_validate` avec :  
+  - OK/KO pour chaque point.  
+  - 1 phrase de justification par point KO.  
+  - (Optionnel) : 3 recommandations concrètes.
+    
+---
+
+## Résultat (scénario du cas pratique pour la deuxième partie) :  
+
+Suite à vos remarques, le Data Scientist applique vos demandes et livre une version propre du script.  
+
+---
+
+## Étape 2 — Valider le script corrigé  
+
+**Fichier à lire :**  
+`2_script_cleaned/model_training_cleaned.py`  
+
+**Livrable étape 2 (avec Cursor) :**  
+- Relisez le script corrigé.  
+- Vérifiez que vos demandes ont bien été prises en compte.  
+- Décidez si le script est **validé pour prochaine étape du workflow en fonction de votre checklist**.  
