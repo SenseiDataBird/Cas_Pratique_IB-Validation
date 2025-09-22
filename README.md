@@ -15,7 +15,9 @@
 
 - **1_script_to_validate/model_training_to_validate.py** → version initiale (contient des erreurs / red flags).  
 - **2_script_cleaned/model_training_cleaned.py** → version corrigée + rajout d'un 2ème incrément par un Data Scientist + Un fichier **README_immobird.md** qui documente le projet.  
-- **data_for_model/house_pred_for_ml.csv** : données source / **data_for_model/house_pred_for_ml.csv** : données transformées pour ML → jeux de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).  
+- **data_for_model/house_pred_for_ml.csv** : données source / **data_for_model/house_pred_for_ml.csv** : données transformées pour ML → jeux de données (**vous n’avez pas à l’ouvrir ni à l’exécuter**).
+- Un fichier **requirements.txt** pour la gestion des dépendances des bibliothèques.
+- Un fichier **.gitignore** qui définit les fichiers/dossiers à exclure du versioning (ex. données lourdes, fichiers temporaires, environnements virtuels).
 
 ---
 
